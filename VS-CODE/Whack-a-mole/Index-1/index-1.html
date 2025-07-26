@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            text-align: center;
+            align-items: center;
+            font-weight: 900;
+
+        }
+        body{
+            background-color: rgb(217, 217, 243);
+        }
+        h1{
+            text-align: center;
+        }
+        #main-container{
+            display: flex;
+            margin: auto;
+            width: max-content;
+            height: 85vh;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        #main-container div{
+            padding: 5em;
+            background-color: gray;
+            margin: 0.5em;
+            height: 5em;
+            width: 5em;
+            margin: 0.5em;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Whack-a-Mole</h1>
+    <p>Score: 0</p>
+    <div id="main-container">
+        <div id="c1"></div>
+        <div id="c2"></div>
+        <div id="c3"></div>
+    </div>
+</body>
